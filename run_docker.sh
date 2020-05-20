@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Complete the following steps to get Docker running locally
+## Build a Docker image and then run it locally mapping the container port 80 to local port 8000
 
 # Step 1:
 # Build image and add a descriptive tag
@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run twong/udacityprediction
+docker run -p 8000:80 twong/udacityprediction
