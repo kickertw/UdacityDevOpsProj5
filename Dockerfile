@@ -5,6 +5,7 @@ WORKDIR /app
 
 ## Step 2:
 COPY . app.py /app/
+COPY model_data /app/model_data
 
 ## Step 3:
 # Install packages from requirements.txt
