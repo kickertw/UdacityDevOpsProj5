@@ -3,13 +3,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="twong/udacity_prediction"
+dockerpath="k1ck3rtw/udacity-prediction"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker tag prediction:latest $dockerpath:latest
+docker tag twong/udacityprediction:latest $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
