@@ -4,7 +4,7 @@ FROM python:3.7.3-stretch
 WORKDIR /app
 
 ## Step 2:
-COPY . app.py /app/
+COPY app.py requirements.txt /app/
 COPY model_data /app/model_data
 
 ## Step 3:
